@@ -5,3 +5,7 @@
 
 # Default owners, unless a later match takes precedence.
 * @actions/actions-oss-maintainers
+# Assign ownership to specific directories or files
+/docs/ @docs-team
+/src/ @developers
+*.md @documentation-team
